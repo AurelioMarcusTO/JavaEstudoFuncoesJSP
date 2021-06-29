@@ -10,5 +10,8 @@
 
 <h3>Pagina acessada somente apos autenticação</h3>
 
+
+<h2>Usuario autenticado</h2>
+
 </body>
 </html>

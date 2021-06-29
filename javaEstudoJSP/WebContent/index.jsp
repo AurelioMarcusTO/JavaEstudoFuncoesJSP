@@ -25,6 +25,14 @@
 </tr>
 
 <tr>
+<td><a href="pages/progresbar.jsp">Progress Bar</a></td>
+</tr>
+
+<tr>
+<td><a href="pages/upload.jsp">Upload de arquivos</a></td>
+</tr>
+
+<tr>
 <td><a href="pages/ServletAutenticacao?deslogar=true">DESLOGAR</a></td>
 </tr>
 

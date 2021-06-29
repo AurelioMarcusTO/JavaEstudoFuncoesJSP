@@ -39,6 +39,8 @@ public class FilterAutenticacao implements Filter {
 		//Retorna null caso nao esteja logado
 		UserLogado userLogado =  (UserLogado)session.getAttribute("usuario");
 		
+		
+		//Usuario nao logado
 		if (userLogado == null && !urlParaAutenticar.equalsIgnoreCase("/pages/ServletAutenticacao")) { //Usuario nao logado
 			
 			RequestDispatcher dispatcher = request.getRequestDispatcher("/autenticar.jsp?url=" + urlParaAutenticar);
