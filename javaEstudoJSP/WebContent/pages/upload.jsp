@@ -10,11 +10,17 @@
 
 </head>
 <body>
+<form action="">
 <h1>Upload de arquivos</h1>
 
-<input type= "file" id= "file" name= "file" onchange="uploadFile();"/>
-<img alt="Imagem" src="" id= "target" width="200" height="200">
+<input type="file" id="file" name="file" onchange="uploadFile();"/>
+<img alt="Imagem" src="" id="target" width="200" height="200">
+</form>
 
+<br/>
+<br/>
+<br/>
+<a href="fileUpload">Carregar imagens</a>
 
 </body>
 

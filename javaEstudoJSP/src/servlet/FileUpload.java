@@ -1,6 +1,8 @@
 package servlet;
 
 import java.io.IOException;
+
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -18,6 +20,10 @@ public class FileUpload extends HttpServlet {
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
+		System.out.println("Carregou a imagem !");
+		RequestDispatcher viDispatcher = request.getRequestDispatcher("upload.jsp");
+		request.setAttribute("listaUserImagem", null);
+		viDispatcher.forward(request, response);
 		
 	}
 

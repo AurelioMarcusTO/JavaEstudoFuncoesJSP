@@ -49,8 +49,10 @@
 
 	<br/>
 
-	<button onclick="exibirBarra()">Iniciar a Barra</button>
+	<button onclick="exibirBarra()">Iniciar a Barra de Progresso</button>
 
+	<br/>
+	<br/>
 	<br/>
 
 	<h1>Barra de Progresso com JQuery</h1>

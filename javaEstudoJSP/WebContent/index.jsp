@@ -33,6 +33,10 @@
 </tr>
 
 <tr>
+<td><a href="pages/datatable.jsp">Data Table</a></td>
+</tr>
+
+<tr>
 <td><a href="pages/ServletAutenticacao?deslogar=true">DESLOGAR</a></td>
 </tr>
 
